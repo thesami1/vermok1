@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vermok - Effortless Protection. Everyday Peace.</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="text-success fw-bold">vermok</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Why Choose Vermok?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#plans">Plans</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Effortless Protection.<br>Everyday Peace.</h1>
+                    <p class="lead mb-4">Professional pest control services that keep your space safe and comfortable.</p>
+                    <a href="https://wa.me/+923004577782" class="btn btn-success btn-lg" target="_blank">Get Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Why Choose Vermok?</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="feature-card text-center p-4">
+                        <i class="fas fa-leaf fa-3x text-success mb-3"></i>
+                        <h4>Eco-Friendly</h4>
+                        <p>Safe and sustainable pest control solutions</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card text-center p-4">
+                        <i class="fas fa-bolt fa-3x text-success mb-3"></i>
+                        <h4>Fast Response</h4>
+                        <p>24/7 emergency service available</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card text-center p-4">
+                        <i class="fas fa-shield-alt fa-3x text-success mb-3"></i>
+                        <h4>Safe Chemicals</h4>
+                        <p>Family and pet-friendly treatments</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card text-center p-4">
+                        <i class="fas fa-home fa-3x text-success mb-3"></i>
+                        <h4>Complete Coverage</h4>
+                        <p>Indoor and outdoor protection</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Services</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <!-- <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Residential Pest Control"> -->
+                        <img src="residential.jpg" class="card-img-top" alt="Residential Pest Control">
+                        <div class="card-body">
+                            <h4 class="card-title">Residential Pest Control</h4>
+                            <p class="card-text">Comprehensive pest control solutions for your home, ensuring a safe and comfortable living environment for your family.</p>
+                            <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#residentialModal">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <!-- <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Commercial Pest Control"> -->
+                        <img src="commercial.jpg" class="card-img-top" alt="Commercial Pest Control">
+                        <div class="card-body">
+                            <h4 class="card-title">Commercial Pest Control</h4>
+                            <p class="card-text">Professional pest management services for businesses, offices, and commercial properties to maintain a pest-free environment.</p>
+                            <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#commercialModal">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <!-- <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Termite Control"> -->
+                        <img src="termite.jpg" class="card-img-top" alt="Termite Control">
+                        <div class="card-body">
+                            <h4 class="card-title">Termite Control</h4>
+                            <p class="card-text">Specialized termite treatment and prevention services to effectively protect your property from severe structural damage.</p>
+                            <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#termiteModal">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <!-- <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Bed Bug Treatment"> -->
+                        <img src="bedbug.jpg" class="card-img-top" alt="Bed Bug Treatment">
+                        <div class="card-body">
+                            <h4 class="card-title">Bed Bug Treatment</h4>
+                            <p class="card-text">Effective bed bug elimination using advanced techniques and safe, eco-friendly solutions.</p>
+                            <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#bedbugModal">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <!-- <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Rodent Control"> -->
+                        <img src="rodent.jpg" class="card-img-top" alt="Rodent Control">
+                        <div class="card-body">
+                            <h4 class="card-title">Rodent Control</h4>
+                            <p class="card-text">Safe and humane rodent management solutions to keep your property free from unwanted pests.</p>
+                            <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#rodentModal">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <!-- <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="General Pest Control"> -->
+                        <img src="general.jpg" class="card-img-top" alt="General Pest Control">
+                        <div class="card-body">
+                            <h4 class="card-title">General Pest Control</h4>
+                            <p class="card-text">Comprehensive pest management solutions for all types of pests, ensuring a clean and healthy environment.</p>
+                            <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#generalModal">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Plans -->
+    <section id="plans" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Peace Plans</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Basic</h3>
+                            <h4 class="price">$99<span>/month</span></h4>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success"></i> Quarterly Inspection</li>
+                                <li><i class="fas fa-check text-success"></i> Basic Pest Control</li>
+                                <li><i class="fas fa-check text-success"></i> Emergency Response</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-outline-success">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-success">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Premium</h3>
+                            <h4 class="price">$149<span>/month</span></h4>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success"></i> Monthly Inspection</li>
+                                <li><i class="fas fa-check text-success"></i> Advanced Pest Control</li>
+                                <li><i class="fas fa-check text-success"></i> Priority Response</li>
+                                <li><i class="fas fa-check text-success"></i> Termite Protection</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-success">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Ultimate</h3>
+                            <h4 class="price">$199<span>/month</span></h4>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success"></i> Bi-weekly Inspection</li>
+                                <li><i class="fas fa-check text-success"></i> Complete Pest Control</li>
+                                <li><i class="fas fa-check text-success"></i> 24/7 Emergency Service</li>
+                                <li><i class="fas fa-check text-success"></i> All Services Included</li>
+                                <li><i class="fas fa-check text-success"></i> Free Consultation</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-outline-success">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Work Gallery</h2>
+            <p class="text-center lead mb-5">See our professional pest control services in action</p>
+            <div class="row g-4">
+                <div class="col-md-4 col-lg-3">
+                    <div class="gallery-item" onclick="openGalleryModal('residential.jpg', 'Residential Treatment', 'Complete home protection for your family')">
+                        <img src="residential.jpg" class="img-fluid rounded" alt="Pest Control Service">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h5>Residential Treatment</h5>
+                                <p>Complete home protection</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="gallery-item" onclick="openGalleryModal('commercial.jpg', 'Commercial Service', 'Professional pest control for businesses')">
+                        <img src="commercial.jpg" class="img-fluid rounded" alt="Commercial Pest Control">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h5>Commercial Service</h5>
+                                <p>Business protection</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="gallery-item" onclick="openGalleryModal('termite.jpg', 'Termite Treatment', 'Protect your property from structural damage')">
+                        <img src="termite.jpg" class="img-fluid rounded" alt="Termite Control">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h5>Termite Treatment</h5>
+                                <p>Structural protection</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="gallery-item" onclick="openGalleryModal('bedbug.jpg', 'Bed Bug Control', 'Complete elimination of bed bugs')">
+                        <img src="bedbug.jpg" class="img-fluid rounded" alt="Bed Bug Treatment">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h5>Bed Bug Control</h5>
+                                <p>Complete elimination</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="gallery-item" onclick="openGalleryModal('rodent.jpg', 'Rodent Management', 'Safe and humane rodent removal')">
+                        <img src="rodent.jpg" class="img-fluid rounded" alt="Rodent Control">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h5>Rodent Management</h5>
+                                <p>Safe removal</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="gallery-item" onclick="openGalleryModal('general.jpg', 'General Pest Control', 'Comprehensive pest management solutions')">
+                        <img src="general.jpg" class="img-fluid rounded" alt="General Pest Control">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h5>General Pest Control</h5>
+                                <p>Comprehensive service</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="gallery-item" onclick="openGalleryModal('inspection.jpg', 'Professional Inspection', 'Thorough assessment of your property')">
+                        <img src="inspection.jpg" class="img-fluid rounded" alt="Inspection Service">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h5>Professional Inspection</h5>
+                                <p>Thorough assessment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="gallery-item" onclick="openGalleryModal('treatment.jpg', 'Treatment Application', 'Safe and effective pest control treatment')">
+                        <img src="treatment.jpg" class="img-fluid rounded" alt="Treatment Application">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h5>Treatment Application</h5>
+                                <p>Safe and effective</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="https://wa.me/+923004577782" class="btn btn-success btn-lg" target="_blank">
+                    <i class="fab fa-whatsapp me-2"></i>Get Quote
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">What Our Clients Say</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="stars mb-3">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                            <p class="card-text">"Vermok's service is exceptional. They're professional, thorough, and eco-friendly."</p>
+                            <h5 class="card-title">- Muhammad Ilyas</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="stars mb-3">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                            <p class="card-text">"Fast response and effective treatment. Highly recommended!"</p>
+                            <h5 class="card-title">- Riaz Khan</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="stars mb-3">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                            <p class="card-text">"The team is knowledgeable and friendly. Great service!"</p>
+                            <h5 class="card-title">- Saqib Khan</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="mb-4">About <span class="text-success fw-bold">vermok</span></h2>
+                    <p class="lead">We're committed to providing safe, effective, and eco-friendly pest control solutions for your home and business.</p>
+                    <p>With over 10 years of experience, our team of certified professionals ensures the highest standards of service and customer satisfaction.</p>
+                    <div class="badge bg-success p-2 mt-3 mb-3">
+                        Trusted by 1,000+ Homes
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <!-- <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Vermok Team" class="img-fluid rounded"> -->
+                    <img src="about.jpg" alt="Vermok Team" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <!-- 
+                    SETUP INSTRUCTIONS FOR PRODUCTION:
+                    1. Go to https://formspree.io and sign up
+                    2. Create a new form
+                    3. Replace "YOUR_FORM_ID" below with your actual form ID
+                    4. Example: if your form ID is "xrgkqrgk", use: https://formspree.io/f/xrgkqrgk
+                    
+                    CURRENT STATUS: Using fallback (no real emails sent)
+                    PRODUCTION STATUS: Will send real emails once Formspree is set up
+                    -->
+                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" id="contactForm" class="needs-validation" novalidate>
+                        <input type="hidden" name="_replyto" value="itzsamiullah1@gmail.com">
+                        <input type="hidden" name="_subject" value="New Contact Form Submission - Vermok">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="tel" name="phone" class="form-control" placeholder="Phone Number" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" name="address" class="form-control" placeholder="Address" required>
+                            </div>
+                            <div class="col-12">
+                                <textarea name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-success btn-lg">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Modals -->
+    <!-- Residential Pest Control Modal -->
+    <div class="modal fade" id="residentialModal" tabindex="-1" aria-labelledby="residentialModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="residentialModalLabel">Residential Pest Control</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="residential.jpg" class="img-fluid rounded mb-3" alt="Residential Pest Control">
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="text-success">Complete Home Protection</h6>
+                            <p>Our residential pest control service provides comprehensive protection for your home and family. We understand that your home is your sanctuary, and we're committed to keeping it pest-free.</p>
+                            
+                            <h6 class="text-success mt-3">What We Cover:</h6>
+                            <ul>
+                                <li>Kitchen and dining areas</li>
+                                <li>Bedrooms and living spaces</li>
+                                <li>Bathrooms and utility rooms</li>
+                                <li>Attic and basement</li>
+                                <li>Garden and outdoor areas</li>
+                            </ul>
+                            
+                            <h6 class="text-success mt-3">Our Process:</h6>
+                            <ol>
+                                <li>Initial inspection and assessment</li>
+                                <li>Customized treatment plan</li>
+                                <li>Safe and effective application</li>
+                                <li>Follow-up monitoring</li>
+                                <li>Preventive maintenance</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="https://wa.me/+923004577782" class="btn btn-success" target="_blank">Get Quote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Commercial Pest Control Modal -->
+    <div class="modal fade" id="commercialModal" tabindex="-1" aria-labelledby="commercialModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="commercialModalLabel">Commercial Pest Control</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="commercial.jpg" class="img-fluid rounded mb-3" alt="Commercial Pest Control">
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="text-success">Business Protection Solutions</h6>
+                            <p>Protect your business reputation and ensure compliance with health and safety regulations. Our commercial pest control services are designed to maintain a professional, pest-free environment.</p>
+                            
+                            <h6 class="text-success mt-3">Business Types We Serve:</h6>
+                            <ul>
+                                <li>Restaurants and food service</li>
+                                <li>Offices and corporate buildings</li>
+                                <li>Retail stores and shopping centers</li>
+                                <li>Warehouses and storage facilities</li>
+                                <li>Hotels and hospitality</li>
+                                <li>Healthcare facilities</li>
+                            </ul>
+                            
+                            <h6 class="text-success mt-3">Benefits:</h6>
+                            <ul>
+                                <li>Compliance with health regulations</li>
+                                <li>Protection of brand reputation</li>
+                                <li>Reduced risk of contamination</li>
+                                <li>Customized service schedules</li>
+                                <li>Detailed reporting and documentation</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="https://wa.me/+923004577782" class="btn btn-success" target="_blank">Get Quote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Termite Control Modal -->
+    <div class="modal fade" id="termiteModal" tabindex="-1" aria-labelledby="termiteModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="termiteModalLabel">Termite Control</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="termite.jpg" class="img-fluid rounded mb-3" alt="Termite Control">
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="text-success">Protect Your Investment</h6>
+                            <p>Termites can cause extensive structural damage to your property. Our specialized termite control services use advanced detection and treatment methods to eliminate termites and prevent future infestations.</p>
+                            
+                            <h6 class="text-success mt-3">Our Termite Services:</h6>
+                            <ul>
+                                <li>Comprehensive termite inspection</li>
+                                <li>Advanced detection technology</li>
+                                <li>Soil treatment and barrier systems</li>
+                                <li>Wood treatment and protection</li>
+                                <li>Ongoing monitoring and prevention</li>
+                            </ul>
+                            
+                            <h6 class="text-success mt-3">Why Choose Our Termite Control:</h6>
+                            <ul>
+                                <li>Certified termite specialists</li>
+                                <li>Latest treatment technologies</li>
+                                <li>Long-term protection guarantees</li>
+                                <li>Detailed inspection reports</li>
+                                <li>Preventive maintenance programs</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="https://wa.me/+923004577782" class="btn btn-success" target="_blank">Get Quote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bed Bug Treatment Modal -->
+    <div class="modal fade" id="bedbugModal" tabindex="-1" aria-labelledby="bedbugModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bedbugModalLabel">Bed Bug Treatment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="bedbug.jpg" class="img-fluid rounded mb-3" alt="Bed Bug Treatment">
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="text-success">Complete Bed Bug Elimination</h6>
+                            <p>Bed bugs are notoriously difficult to eliminate. Our specialized bed bug treatment program uses a combination of advanced techniques to completely eradicate these pests from your home.</p>
+                            
+                            <h6 class="text-success mt-3">Our Treatment Process:</h6>
+                            <ol>
+                                <li>Thorough inspection and detection</li>
+                                <li>Preparation guidelines for homeowners</li>
+                                <li>Multi-stage treatment application</li>
+                                <li>Follow-up inspections</li>
+                                <li>Prevention recommendations</li>
+                            </ol>
+                            
+                            <h6 class="text-success mt-3">Treatment Methods:</h6>
+                            <ul>
+                                <li>Heat treatment technology</li>
+                                <li>Chemical treatments</li>
+                                <li>Steam treatment</li>
+                                <li>Vacuum and physical removal</li>
+                                <li>Residual protection</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="https://wa.me/+923004577782" class="btn btn-success" target="_blank">Get Quote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodent Control Modal -->
+    <div class="modal fade" id="rodentModal" tabindex="-1" aria-labelledby="rodentModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="rodentModalLabel">Rodent Control</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="rodent.jpg" class="img-fluid rounded mb-3" alt="Rodent Control">
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="text-success">Safe and Humane Rodent Management</h6>
+                            <p>Rodents can cause significant damage and health risks. Our rodent control services use safe, humane methods to eliminate rodents and prevent future infestations.</p>
+                            
+                            <h6 class="text-success mt-3">Rodent Types We Control:</h6>
+                            <ul>
+                                <li>House mice</li>
+                                <li>Rats (Norway and Roof rats)</li>
+                                <li>Squirrels</li>
+                                <li>Other small rodents</li>
+                            </ul>
+                            
+                            <h6 class="text-success mt-3">Our Approach:</h6>
+                            <ul>
+                                <li>Comprehensive property inspection</li>
+                                <li>Identification of entry points</li>
+                                <li>Safe trapping and removal</li>
+                                <li>Exclusion and sealing</li>
+                                <li>Preventive measures</li>
+                                <li>Ongoing monitoring</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="https://wa.me/+923004577782" class="btn btn-success" target="_blank">Get Quote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- General Pest Control Modal -->
+    <div class="modal fade" id="generalModal" tabindex="-1" aria-labelledby="generalModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="generalModalLabel">General Pest Control</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="general.jpg" class="img-fluid rounded mb-3" alt="General Pest Control">
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="text-success">Comprehensive Pest Management</h6>
+                            <p>Our general pest control service addresses a wide range of common pests that can invade your home or business. We provide effective, long-term solutions for all types of pest problems.</p>
+                            
+                            <h6 class="text-success mt-3">Pests We Control:</h6>
+                            <ul>
+                                <li>Cockroaches</li>
+                                <li>Ants (all types)</li>
+                                <li>Spiders</li>
+                                <li>Flies and mosquitoes</li>
+                                <li>Wasps and bees</li>
+                                <li>Silverfish</li>
+                                <li>And many more</li>
+                            </ul>
+                            
+                            <h6 class="text-success mt-3">Service Features:</h6>
+                            <ul>
+                                <li>Regular scheduled treatments</li>
+                                <li>Emergency pest control</li>
+                                <li>Eco-friendly solutions</li>
+                                <li>Family and pet safe</li>
+                                <li>Preventive maintenance</li>
+                                <li>Detailed service reports</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="https://wa.me/+923004577782" class="btn btn-success" target="_blank">Get Quote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Modal -->
+    <div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="galleryModalLabel">Gallery Image</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img id="galleryModalImage" src="" class="img-fluid rounded" alt="Gallery Image">
+                    <div class="content-wrapper">
+                        <h5 id="galleryModalTitle"></h5>
+                        <p id="galleryModalDescription"></p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="https://wa.me/+923004577782" class="btn btn-success" target="_blank">
+                        <i class="fab fa-whatsapp me-2"></i>Get This Service
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="text-success">VERMOK</h5>
+                    <p>Effortless Protection. Everyday Peace.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#home" class="text-light">Home</a></li>
+                                <li><a href="#features" class="text-light">Why Choose Vermok?</a></li>
+                                <li><a href="#services" class="text-light">Services</a></li>
+                                <li><a href="#gallery" class="text-light">Gallery</a></li>
+                                <li><a href="#plans" class="text-light">Plans</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#testimonials" class="text-light">Testimonials</a></li>
+                                <li><a href="#about" class="text-light">About</a></li>
+                                <li><a href="#contact" class="text-light">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5>Connect With Us</h5>
+                    <div class="social-icons">
+                        <a href="#" class="text-light me-3"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-light me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="https://wa.me/+923004577782" class="text-light" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Vermok. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/+923004577782" class="whatsapp-btn" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
